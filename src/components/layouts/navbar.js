@@ -7,7 +7,7 @@ import GetStartedBtn from "../features/getstartedbtn";
 
 export default function Navbar() {
   return (
-    <nav className="w-full max-w-full bg-cream h-18 pt-1.5 fixed top-0 left-[50%] translate-x-[-50%] mb-20 select-none ">
+    <nav className="w-full max-w-full bg-cream h-18 pt-1.5 fixed top-0 left-[50%] translate-x-[-50%] mb-20 select-none z-50 ">
       <Container>
         <div className=" flex flex-row justify-between items-center relative">
           {/* logo */}

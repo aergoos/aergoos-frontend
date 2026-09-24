@@ -23,6 +23,7 @@ export default function LogoScroollBreak() {
         ${isScrolled ? "tracking-[-4] " : " tracking-wider  "} duration-300 ease-in-out`}
       >
         <span className="tilt" >A</span>
+        <span>E</span>
         <span>R</span>
         <span>G</span>
         <span

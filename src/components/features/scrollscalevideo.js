@@ -16,7 +16,7 @@ export default function ScrollScaleVideo() {
     () => {
       gsap.fromTo(
         videoRef.current,
-        { width: "49%" },
+        { width: "57%" },
         {
           width: "100%",
           ease: "none",

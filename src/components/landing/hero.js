@@ -9,7 +9,7 @@ export default function Hero() {
         {/* grid */}
         <div className=" grid grid-cols-2 ">
           {/* left grid */}
-          <div className=" pt-28">
+          <div className=" pt-34">
             <h1 className=" font-JetBrain text-[56px] leading-tight">
               Aergoos, Built From What You Know
             </h1>
@@ -28,18 +28,18 @@ export default function Hero() {
                 speaks for your business
               </b>{" "}
               without missing a beat. A more literal alternative, if you want
-              something closer to plain-spoken:
+              something closer to plain-spoken
             </p>
           </div>
 
           {/* right grid */}
-          <div className=" pt-34 ">
+          <div className=" pt-40 ">
             <img src="/images/heroworkflow.svg" />
           </div>
         </div>
       </Container>
 
-      <div className=" mt-16 w-full">
+      <div className=" mt-24 w-full">
         <ScrollScaleVideo />
       </div>
     </section>

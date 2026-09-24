@@ -8,12 +8,19 @@
   --color-orange: #f2805c;
 
   --font-JetBrain: "JetBrain", "sans-serif";
+  --font-JetBrainReg: "JetBrainReg", "sans-serif";
   --font-Karma: "Karma", "sans-serif";
 }
 
 @font-face {
   font-family: JetBrain;
   src: url(../../public/fonts/JetBrainsMono_Complete/JetBrainsMono_Complete/Fonts/OTF/JetBrainsMono-Bold.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: JetBrainReg;
+  src: url(../../public/fonts/JetBrainsMono_Complete/JetBrainsMono_Complete/Fonts/OTF/JetBrainsMono-Regular.otf)
     format("opentype");
 }
 
