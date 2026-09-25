@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 export default function LogoScroollBreak() {
@@ -18,11 +19,12 @@ export default function LogoScroollBreak() {
 
   return (
     <>
-      <h1
+      <Link
+        href="/"
         className={` font-JetBrain text-[38px] text-black flex flex-row justify-center items-center
         ${isScrolled ? "tracking-[-4] " : " tracking-wider  "} duration-300 ease-in-out`}
       >
-        <span className="tilt" >A</span>
+        <span className="tilt">A</span>
         <span>E</span>
         <span>R</span>
         <span>G</span>
@@ -37,7 +39,7 @@ export default function LogoScroollBreak() {
           O
         </span>
         <span>S</span>
-      </h1>
+      </Link>
     </>
   );
 }

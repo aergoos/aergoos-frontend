@@ -25,7 +25,7 @@ export default function ScrollScaleVideo() {
             trigger: containerRef.current,
             start: "top bottom",
             end: "bottom bottom-=450",
-            scrub: true,
+            scrub: 1,
           },
         },
       );
@@ -36,7 +36,7 @@ export default function ScrollScaleVideo() {
   return (
     <div ref={containerRef}>
       <video
-        className={` block mx-auto rounded-4xl `}
+        className={` block mx-auto rounded-4xl select-none `}
         ref={videoRef}
         autoPlay
         muted

@@ -9,6 +9,7 @@
 
   --font-JetBrain: "JetBrain", "sans-serif";
   --font-JetBrainReg: "JetBrainReg", "sans-serif";
+  --font-JetBrainLig: "JetBrainLig", "sans-serif";
   --font-Karma: "Karma", "sans-serif";
 }
 
@@ -25,6 +26,12 @@
 }
 
 @font-face {
+  font-family: JetBrainLig;
+  src: url(../../public/fonts/JetBrainsMono_Complete/JetBrainsMono_Complete/Fonts/OTF/JetBrainsMono-Light.otf)
+    format("opentype");
+}
+
+@font-face {
   font-family: Karma;
   src: url(../../public/fonts/Karma_Complete/Karma_Complete/Fonts/OTF/Karma-Light.otf)
     format("opentype");
@@ -32,7 +39,6 @@
 
 body {
   background-color: #fffeec;
-  height: 200vh;
   margin-top: 70px;
 }
 

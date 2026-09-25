@@ -20,7 +20,10 @@ export default function Navbar() {
               <ListItems>Pricing</ListItems>
             </Link>
             <Link href="/">
-              <ListItems>Resource</ListItems>
+              <ListItems>Docs</ListItems>
+            </Link>
+            <Link href="/">
+              <ListItems>Resources</ListItems>
             </Link>
           </List>
           {/* page btns */}
