@@ -25,7 +25,7 @@ export default function ScrollScaleVideo() {
             trigger: containerRef.current,
             start: "top bottom",
             end: "bottom bottom-=450",
-            scrub: 1,
+            scrub: true,
           },
         },
       );

@@ -11,30 +11,19 @@ export default function Hero() {
           {/* left grid */}
           <div className=" pt-34">
             <h1 className=" font-JetBrain text-[56px] leading-tight">
-              Aergoos, Built From What You Know
+              AI Support Agent Platform
             </h1>
-            <p className=" font-Karma text-[22px] text-black mt-2 leading-11 ">
-              Trained on your truth, fluent in the language of your product —
-              one agent that{" "}
-              <span className=" px-3 py-1 bg-orange rounded-xl select-none cursor-help ">
-                reads your documents,
-              </span>{" "}
-              listens to your{" "}
-              <span className=" px-3 py-1 bg-notlime rounded-xl select-none cursor-help ">
-                live data,
-              </span>{" "}
-              and{" "}
-              <span className=" px-3 py-1 bg-blue rounded-xl select-none cursor-help ">
-                speaks for your business
-              </span>{" "}
-              without missing a beat. A more literal alternative, if you want
-              something closer to plain-spoken
+            <p className=" font-Karma text-[22px] text-black mt-2 leading-10 w-[95%] ">
+              Aergoos lets you build and deploy an AI support agent trained on
+              your own knowledge — no AI team or infrastructure required. It
+              answers from your documents and live data, so responses stay
+              accurate as your business changes.
             </p>
           </div>
 
           {/* right grid */}
-          <div className=" pt-40 select-none ">
-            <img src="/images/heroworkflow.svg" />
+          <div className=" pt-30 select-none ">
+            <img src="/images/macwindow.svg" className=" w-150 ml-auto drop-shadow-xl drop-shadow-black/60 " />
           </div>
         </div>
       </Container>
