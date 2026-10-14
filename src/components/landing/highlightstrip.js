@@ -5,28 +5,30 @@ import Link from "next/link";
 export default function HighlightStrip() {
   return (
     <section>
-      <div className=" mt-20 py-6 border-y-2 border-black ">
+      <div className=" mt-20 py-6 border-y-2 border-black/50 ">
         <Container className=" py-3 ">
           <div className="w-fit mx-auto flex flex-row justify-center items-center gap-10 relative">
             <p className=" font-JetBrainLig text-[16px] text-black tracking-tight ">
-              <b>Early access</b> · onboarding first teams
+              <b className=" text-orange ">Early access</b> · onboarding first
+              teams
             </p>
             <p className=" font-JetBrainLig text-[16px] text-black tracking-tight ">
-              Works with · <b>OpenAI, Gemini, Claude</b>
+              Works with ·{" "}
+              <b className=" text-orange ">OpenAI, Gemini, Claude</b>
             </p>
             <p className=" font-JetBrainLig text-[16px] text-black tracking-tight ">
-              Grounded, cited answers — no guessing
+              Grounded, cited answers —{" "}
+              <b className=" text-orange ">no guessing</b>
             </p>
 
-            <div className=" w-[1.5px] h-45 bg-black/50 absolute -left-4 -top-9 "></div>
-            <div className=" w-[1.5px] h-45 bg-black/50 absolute -right-4 -top-9 "></div>
+            <div className=" w-[1.5px] h-45 border-l-2 border-black/50 absolute -left-3.5 -top-9 "></div>
+            <div className=" w-[1.5px] h-45 border-r-2 border-black/50 absolute -right-3.5 -top-9 "></div>
           </div>
-          <div></div>
         </Container>
       </div>
 
       <div className=" my-20  ">
-        <Container className=" grid grid-cols-2 items-center border-2 border-black p-10 ">
+        <Container className=" grid grid-cols-2 items-center border-2 border-black/50 p-10 ">
           <div>
             <h1 className=" font-JetBrainReg text-[26px] text-black tracking-tight w-full max-w-[60%] ">
               <Link

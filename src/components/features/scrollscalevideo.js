@@ -1,7 +1,6 @@
 "use client";
-import React, { useEffect, useState } from "react";
 
-import { useRef } from "react";
+import React, { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -36,14 +35,14 @@ export default function ScrollScaleVideo() {
   return (
     <div ref={containerRef}>
       <video
-        className={` block mx-auto rounded-4xl select-none `}
         ref={videoRef}
+        className=" mx-auto rounded-xl select-none"
         autoPlay
         muted
-        loop
         playsInline
+        preload="auto"
       >
-        <source src="/videos/test.mp4" />
+        <source src="/videos/banner.MOV" type="video/mp4" />
       </video>
     </div>
   );

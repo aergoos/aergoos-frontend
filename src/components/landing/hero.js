@@ -5,7 +5,7 @@ import ScrollScaleVideo from "../features/scrollscalevideo";
 export default function Hero() {
   return (
     <section>
-      <Container>
+      <Container >
         {/* grid */}
         <div className=" grid grid-cols-2 ">
           {/* left grid */}
@@ -23,7 +23,7 @@ export default function Hero() {
 
           {/* right grid */}
           <div className=" pt-30 select-none ">
-            <img src="/images/macwindow.svg" className=" w-150 ml-auto drop-shadow-xl drop-shadow-black/60 " />
+            <img src="/images/macwindowsec.svg" className=" w-150 ml-auto drop-shadow-xl drop-shadow-black/60 " />
           </div>
         </div>
       </Container>

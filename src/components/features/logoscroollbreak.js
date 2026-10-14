@@ -21,8 +21,8 @@ export default function LogoScroollBreak() {
     <>
       <Link
         href="/"
-        className={` font-JetBrain text-[38px] text-black flex flex-row justify-center items-center
-        ${isScrolled ? "tracking-[-4] " : " tracking-wider  "} duration-300 ease-in-out`}
+        className={` font-JetBrain text-[32px] text-black flex flex-row justify-center items-center
+        ${isScrolled ? "tracking-[-3] " : " tracking-wider "} duration-300 ease-in-out`}
       >
         <span className="tilt">A</span>
         <span>E</span>
@@ -34,7 +34,7 @@ export default function LogoScroollBreak() {
           O
         </span>
         <span
-          className={` ${isScrolled ? "-ml-3 text-orange" : "ml-0 text-black"} duration-300 ease-in-out `}
+          className={` ${isScrolled ? "-ml-2.75 text-orange" : "ml-0 text-black"} duration-300 ease-in-out `}
         >
           O
         </span>

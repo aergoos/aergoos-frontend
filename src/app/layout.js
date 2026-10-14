@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <body className=" selection:bg-black selection:text-cream ">
         <Navbar />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

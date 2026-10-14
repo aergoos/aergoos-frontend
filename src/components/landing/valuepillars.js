@@ -1,14 +1,15 @@
 import React from "react";
 import Container from "../ui/container";
+import Label from "../ui/label";
 
 export default function ValuePillars() {
   return (
     <section>
       <Container className=" max-w-277.75! border-y-2 border-black py-10 px-4 relative">
-        <h1 className=" font-JetBrain text-[26px] text-black tracking-tight mb-10 ">
-          <span className=" text-blue ">&#123;</span>One agent, every source of
-          truth<span className=" text-blue">&#125;</span>
-        </h1>
+        <Label className=" mb-10 ">
+          <span className=" text-orange ">&#123;</span>One agent, every source
+          of truth<span className=" text-orange">&#125;</span>
+        </Label>
         <div className=" grid grid-cols-3 items-start gap-4 ">
           <div className=" ">
             <p className=" text-black font-JetBrain text-[20px] ">01</p>
@@ -44,8 +45,8 @@ export default function ValuePillars() {
           </div>
         </div>
 
-        <div className=" w-[1.5px] h-120 bg-black/50 absolute left-0 -top-20.5 "></div>
-        <div className=" w-[1.5px] h-120 bg-black/50 absolute right-0 -top-20.5 "></div>
+        <div className=" w-[1.5px] h-122.5 bg-black/50 absolute left-0 -top-20.5 "></div>
+        <div className=" w-[1.7px] h-122.5 bg-black/50 absolute right-0 -top-20.5 "></div>
       </Container>
     </section>
   );

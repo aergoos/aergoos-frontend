@@ -2,10 +2,9 @@
 
 @theme {
   --color-black: #222223;
-  --color-cream: #fffeec;
-  --color-notlime: #dff96d;
-  --color-blue: #a3b1fb;
+  --color-cream: #FFFFE7;
   --color-orange: #f2805c;
+  --color-yellow: #ffbc2f;
 
   --font-JetBrain: "JetBrain", "sans-serif";
   --font-JetBrainReg: "JetBrainReg", "sans-serif";
@@ -38,7 +37,7 @@
 }
 
 body {
-  background-color: #fffeec;
+  background-color: #FFFFE7;
   margin-top: 70px;
 }
 
