@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "@/components/layouts/footer";
-import ConfirmPageContents from "@/components/signin/up/confirmpagecontents";
+import ConfirmPageContents from "@/components/features/auth/signup/confirmpagecontents";
 
 export const metadata = {
   title: "Confirm Code - Aergoos",

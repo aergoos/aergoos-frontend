@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "@/components/layouts/footer";
-import SignInPageContents from "@/components/signin/up/signinpagecontents";
+import SignInPageContents from "@/components/features/auth/signin/signinpagecontents";
+
 
 export const metadata = {
   title: "Sign In - Aergoos",
