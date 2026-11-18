@@ -1,6 +1,5 @@
-import Navbar from "@/components/layouts/navbar";
 import "./globals.css";
-import Footer from "@/components/layouts/footer";
+import SmoothScroll from "@/components/features/smoothscroll";
 
 export const metadata = {
   title: "Create Next App",
@@ -10,10 +9,32 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className=" selection:bg-black selection:text-cream ">
-        <Navbar />
-        {children}
-        <Footer />
+      <head>
+        <style
+          dangerouslySetInnerHTML={{
+            __html: `
+              html, body, * {
+                scrollbar-width: none !important;
+                -ms-overflow-style: none !important;
+              }
+              html::-webkit-scrollbar, body::-webkit-scrollbar, *::-webkit-scrollbar {
+                display: none !important;
+                width: 0 !important;
+                height: 0 !important;
+                background: transparent !important;
+              }
+              *::-webkit-scrollbar-thumb, *::-webkit-scrollbar-track, *::-webkit-scrollbar-corner {
+                display: none !important;
+                background: transparent !important;
+              }
+            `,
+          }}
+        />
+      </head>
+      <body className=" selection:bg-cream selection:text-black ">
+        <SmoothScroll>
+          {children}
+        </SmoothScroll>
       </body>
     </html>
   );

@@ -1,15 +1,19 @@
 @import "tailwindcss";
 
 @theme {
-  --color-black: #222223;
-  --color-cream: #FFFFE7;
-  --color-orange: #f2805c;
-  --color-yellow: #ffbc2f;
+  --color-cream: #ffffe7;
+  --color-black: #0a0a0a;
+  --color-orange: #d9521d;
+  --color-hotorange: #ffb27c;
+  --color-white: #fffbf4;
+  --color-olive: #565449;
 
   --font-JetBrain: "JetBrain", "sans-serif";
   --font-JetBrainReg: "JetBrainReg", "sans-serif";
   --font-JetBrainLig: "JetBrainLig", "sans-serif";
-  --font-Karma: "Karma", "sans-serif";
+  --font-RedHat: "RedHat", "sans-serif";
+  --font-RedHatReg: "RedHatReg", "sans-serif";
+  --font-Telma: "Telma", "sans-serif";
 }
 
 @font-face {
@@ -20,7 +24,7 @@
 
 @font-face {
   font-family: JetBrainReg;
-  src: url(../../public/fonts/JetBrainsMono_Complete/JetBrainsMono_Complete/Fonts/OTF/JetBrainsMono-Regular.otf)
+  src: url(../../public/fonts/JetBrainsMono_Complete/JetBrainsMono_Complete/Fonts/OTF/JetBrainsMono-Medium.otf)
     format("opentype");
 }
 
@@ -31,14 +35,20 @@
 }
 
 @font-face {
-  font-family: Karma;
-  src: url(../../public/fonts/Karma_Complete/Karma_Complete/Fonts/OTF/Karma-Light.otf)
-    format("opentype");
+  font-family: RedHat;
+  src: url(../../public/fonts/RedHatDisplay/RedHatDisplay_Complete/Fonts/OTF/RedHatDisplay-Black.otf);
+}
+@font-face {
+  font-family: RedHatReg;
+  src: url(../../public/fonts/RedHatDisplay/RedHatDisplay_Complete/Fonts/OTF/RedHatDisplay-SemiBold.otf);
+}
+@font-face {
+  font-family: Telma;
+  src: url(../../public/fonts/Telma_Complete/Telma_Complete/Fonts/OTF/Telma-Medium.otf);
 }
 
 body {
-  background-color: #FFFFE7;
-  margin-top: 70px;
+  background-color: #ffffe7;
 }
 
 /* .tilt {
